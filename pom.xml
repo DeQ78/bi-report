@@ -11,8 +11,8 @@
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<maven.compiler.source>9</maven.compiler.source>
-		<maven.compiler.target>9</maven.compiler.target>
+		<maven.compiler.source>1.9</maven.compiler.source>
+		<maven.compiler.target>1.9</maven.compiler.target>
 
 		<junit.jupiter.version>5.0.1</junit.jupiter.version>
 		<junit.platform.version>1.0.1</junit.platform.version>
