@@ -9,13 +9,7 @@ java -cp .\target\bi-report-0.0.1.jar net.devquest.App
 mvn exec:java
 
 
-
-
-
 mvn archetype:generate -B -DarchetypeGroupId=org.apache.maven.archetypes -DarchetypeArtifactId=maven-archetype-quickstart -DgroupId=dq78 -DartifactId=LInfo -Dversion=0.0.1 -Dpackage=dq78
-
-
-
 
 
 If you want to only download dependencies without doing anything else, then it's:
