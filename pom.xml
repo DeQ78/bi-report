@@ -5,7 +5,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>net.devquest</groupId>
+	<groupId>net.devquest.tools</groupId>
 	<artifactId>bi-report</artifactId>
 	<version>0.0.1</version>
 
@@ -14,11 +14,21 @@
 		<maven.compiler.source>1.9</maven.compiler.source>
 		<maven.compiler.target>1.9</maven.compiler.target>
 
-		<junit.jupiter.version>5.0.1</junit.jupiter.version>
+		<junit.jupiter.version>5.7.2</junit.jupiter.version>
 		<junit.platform.version>1.0.1</junit.platform.version>
 	</properties>
 
 	<dependencies>
+		<!-- JUnit 4 -->
+		<!-- 
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.11</version>
+			<scope>test</scope>
+		</dependency>
+		-->
+		
 		<!--
 		    JUnit5 dependencies:
 		     * junit-jupiter-api: for writing JUnit5 tests
@@ -69,7 +79,7 @@
 						</execution>
 					</executions>
 					<configuration>
-						<mainClass>net.devquest.App</mainClass>
+						<mainClass>net.devquest.tools.App</mainClass>
 					</configuration>
 				</plugin>
 
